@@ -1,0 +1,98 @@
+/* Custom Styles */
+
+/* Body Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Navigation Styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107; /* Yellow */
+}
+
+/* Section Styles */
+section {
+  padding: 50px 0;
+}
+
+.section-title {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: #212529;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-body {
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #212529;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+/* List Group Item Styles */
+.list-group-item {
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.footer-link {
+  color: #ffc107; /* Yellow */
+}
+
+.footer-link:hover {
+  color: #ffca28; /* Light Yellow */
+}
